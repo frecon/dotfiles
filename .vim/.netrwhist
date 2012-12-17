@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/frej/hacks/matrix/tests'
+let g:netrw_dirhist_2='/Users/frej/hacks/sudoku/tests'
+let g:netrw_dirhist_3='/Users/frej/hacks/imaginate/Imaginate/# Information!.rtfd'
