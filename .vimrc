@@ -67,10 +67,12 @@ set fileencoding=utf-8
 " let g:pymode_paths = ["/home/frej/"]
 " let g:pymode_lint_write = 0
 " let g:pymode_lint_ignore = "E111"
-let g:pymode_utils_whitespaces = 0
+" let g:pymode_utils_whitespaces = 0
 
 let mapleader = ','
 set colorcolumn=80
 
 " set statusline=%{virtualenv#statusline()}
 
+" toggle invinsible characters
+nmap <leader>l :set list!<CR>
