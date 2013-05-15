@@ -75,5 +75,22 @@ let g:pyflakes_use_quickfix = 0
 " this fixes color issues in ubuntu terminal at school
 set t_Co=256
 
+" Show relative line number for faster switching with line nr + j or k
+set relativenumber
+
+" Change to relative- or absolute line numbers
+function! LineNumberToggle()
+    if(&relativenumber == 1)
+        " Set absolute line numbers
+        set number
+    else
+        " Set relative line numbers
+        set relativenumber
+    endif
+endfunc
+
+" Toggle show absolute/relative line numbers with CTRL-N-N
+nnoremap <C-N><C-N> :call LineNumberToggle()<CR>
+
 " Show line number and column
 set ruler
