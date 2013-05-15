@@ -6,13 +6,10 @@ syntax on
 filetype plugin indent on
 
 set background=dark
-" colorscheme wombat-256mod
 colorscheme solarized
+" colorscheme wombat-256mod
 " colorscheme smyck
 " colorscheme hemisu
-
-" use jj for end insert mode
-imap jj <Esc>
 
 set modeline
 set smartindent
@@ -39,13 +36,13 @@ set hlsearch
 " highlight current line
 set cursorline
 
-" toggle line numbers
-:nmap <C-N><C-N> :set invnumber<CR>
+" toggle show line numbers with CTRL-N
+:nmap <C-N> :set invnumber<CR>
 set numberwidth=2
 
 " omnicompletion
 " filetype plugin on
-" set ofu=syntaxcomplete#Complete
+set ofu=syntaxcomplete#Complete
 
 " bind CTRL-X CTRL-O to CTRL-SPACE
 "  inoremap <C-space> <C-x><C-o>
@@ -58,17 +55,6 @@ set wildmenu
 set ignorecase
 
 set fileencoding=utf-8
-
-" 2 space indent
-" let g:syntastic_python_checker_args='--ignore=E111'
-" Enable python folding
-" let g:pymode_lint = 0
-" let g:pymode_folding = 0
-" let g:pymode_paths = ["/home/frej/"]
-" let g:pymode_lint_write = 0
-" let g:pymode_lint_ignore = "E111"
-" let g:pymode_utils_whitespaces = 0
-
 let mapleader = ','
 set colorcolumn=80
 
@@ -76,3 +62,18 @@ set colorcolumn=80
 
 " toggle invinsible characters
 nmap <leader>l :set list!<CR>
+
+" hide highlighted text from search
+nmap <silent> <leader>n :silent nohlsearch<CR>
+
+" Select browser to open for plugin browser-refresh
+let g:RefreshRunningBrowserDefault = 'safari'
+
+" avoid conflict with pyflykes and 
+let g:pyflakes_use_quickfix = 0
+
+" this fixes color issues in ubuntu terminal at school
+set t_Co=256
+
+" Show line number and column
+set ruler
