@@ -1,0 +1,2 @@
+# Let git fix line endings. From https://help.github.com/articles/dealing-with-line-endings  
+git config --global core.autocrlf input

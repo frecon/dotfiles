@@ -1,5 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/frej/hacks/matrix/tests'
-let g:netrw_dirhist_2='/Users/frej/hacks/sudoku/tests'
-let g:netrw_dirhist_3='/Users/frej/hacks/imaginate/Imaginate/# Information!.rtfd'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/frej/Dropbox/kth/os/os-labbar/Labb3/performance_tests'
+let g:netrw_dirhist_2='/Users/frej/Dropbox/hacks/listenprice/pricepersong/listens'
+let g:netrw_dirhist_3='/Users/frej/Dropbox/hacks/listenprice/pricepersong'
+let g:netrw_dirhist_4='/Users/frej/Dropbox/Documents'
+let g:netrw_dirhist_5='/Users/frej/Dropbox'
+let g:netrw_dirhist_6='/Users/frej/Dropbox/Jobb'
+let g:netrw_dirhist_7='/Users/frej/Dropbox/Jobb/5monkeys'
+let g:netrw_dirhist_8='/Users/frej/Dropbox/Jobb/5monkeys/arbetsprov'

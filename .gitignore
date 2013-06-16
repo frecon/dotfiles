@@ -1,0 +1,2 @@
+# Hide local history of edited directories by VIM
+*.netrwhist

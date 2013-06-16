@@ -1,3 +1,6 @@
+# activate by running git config --global core.excludesfile /Users/frej/Dropbox/dotfiles/.gitignore_global  
+# more recommended git ignores: https://github.com/github/gitignore#readme
+
 # Compiled source #
 ###################
 *.com
@@ -40,3 +43,28 @@ Thumbs.db
 # Vim #
 #######
 *.swp
+*.swo
+.ropeproject
+
+# Python #
+#####################
+venv
+
+# Coverage (python test coverage tool) #
+########################################
+.coverage
+htmlcov
+
+# Django #
+##########
+*.pot
+*.pyc
+local_settings.py
+
+# Java #
+########
+*.class
+# Package Files #
+*.jar
+*.war
+*.ear
